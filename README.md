@@ -1,4 +1,4 @@
-![](https://i.loli.net/2021/02/09/Mgv3z51fL8poh4W.png)
+![](https://attachment.mcbbs.net/data/myattachment/forum/202108/17/142921rll20j5kie5kzk1f.gif)
 ![](https://img.shields.io/github/last-commit/Arasple/TrMenu?logo=artstation&style=for-the-badge&color=9266CC)![](https://img.shields.io/github/issues/InsinuateProjects/TrMenu?style=for-the-badge&logo=slashdot)![](https://img.shields.io/github/release/Arasple/TrMenu?style=for-the-badge&color=00C58E&logo=ionic)
 
 ---
@@ -16,12 +16,57 @@
 
 ---
 
+### 🌍 Languages
+
+* **en_US(English)** by _@Arasple_ & _@Score2_
+* **ru_RU(Русский)** by _@Liassid_
+* **vi_VN(Tiếng Việt)** by _@Galaxy-VN_
+* **zh_CN(简体中文)** by _@Arasple_ & _@Score2_
+* **zh_HK(繁體中文)** by _@Arasple_ & _@Score2_
+* **zh_TW(繁體中文)** copy from _zh_HK_
+
+---
+
+### ⛏ Developer
+
+Maven:
+```xml
+    <repositories>
+      <repository>
+        <id>roselle-public</id>
+        <url>https://repo.mcage.cn/repository/maven-public/</url>
+      </repository>
+    </repositories>
+
+    <dependencies>
+      <dependency>
+        <groupId>me.arasple.mc.trmenu</groupId>
+        <artifactId>trmenu</artifactId>
+        <version>{LATEST-VERSION}</version>
+        <scope>provided</scope>
+      </dependency>
+    </dependencies>
+```
+
+Gradle Kotlin DSL
+```kotlin
+repositories {
+  maven("https://repo.mcage.cn/repository/maven-public/")
+}
+dependencies {
+  compileOnly("me.arasple.mc.trmenu:trmenu:{LATEST-VERSION}")
+}
+
+```
+
+---
+
 ### 🎯 Introduce
 
-TrMenu is a brand new advanced dynamic menu plugin  
+TrMenu is a brand new advanced dynamic trplugins.menu plugin  
 You can create unlimited & highly customized inventory GUIs
 
-It covers a larger variety of functions, and easier to configurae menu  
+It covers a larger variety of functions, and easier to configurae trplugins.menu  
 Also a detailed wiki help you qucik start
 
 ---
@@ -40,7 +85,9 @@ Before asking for support, please make sure you have fully **read the wiki** and
 to reproduce the issue
 
 Issues: https://github.com/InsinuateProjects/TrMenu/issues  
-Discord : https://discord.gg/8CWa6KF
+_TrPlugins Discord (Original) : https://discord.gg/8CWa6KF_
+
+**Insinuate Discord : https://discord.gg/Fs6fJN3jXj**
 
 ```
 1. I will not offer help to the one who didn't purchase the plugin
